@@ -57,7 +57,8 @@ button:active {
 }
 @media (max-width: 767px) {
   body {
-    min-height: 100vh;
+    min-height: 70vh;
+    min-width: 50vh;
   }
   button {
     width: 60px;
