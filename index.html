@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn-icons-png.flaticon.com/512/2344/2344132.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="clac">
+      <input type="text" readonly id="display" />
+      <div class="box">
+        <button onclick="appendtodisplay('+')" class="oprateor">+</button>
+        <button onclick="appendtodisplay('7')">7</button>
+        <button onclick="appendtodisplay('8')">8</button>
+        <button onclick="appendtodisplay('9')">9</button>
+        <button onclick="appendtodisplay('-')" class="oprateor">-</button>
+        <button onclick="appendtodisplay('4')">4</button>
+        <button onclick="appendtodisplay('5')">5</button>
+        <button onclick="appendtodisplay('6')">6</button>
+        <button onclick="appendtodisplay('*')" class="oprateor">*</button>
+        <button onclick="appendtodisplay('1')">1</button>
+        <button onclick="appendtodisplay('2')">2</button>
+        <button onclick="appendtodisplay('3')">3</button>
+        <button onclick="appendtodisplay('/')" class="oprateor">/</button>
+        <button onclick="appendtodisplay('0')">0</button>
+        <button onclick="appendtodisplay('.')">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="cleardisplay()" class="oprateor">c</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
